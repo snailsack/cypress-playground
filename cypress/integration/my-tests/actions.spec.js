@@ -83,15 +83,4 @@ context('Actions', () => {
     cy.get('#group_1').should('have.value', '2')
   })
 
-  /*
-
-    Couldn't find any checkboxes or radio buttons on website. To look at docs https://on.cypress.io/check
-
-    No scrollable elements to be found https://on.cypress.io/scrollintoview
-    https://on.cypress.io/scrollto
-
-
-  */
-
-  
 })
